@@ -1,0 +1,12 @@
+#headline{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.movietile {
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    background-color: black;
+}
