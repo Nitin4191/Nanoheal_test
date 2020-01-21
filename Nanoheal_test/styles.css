@@ -1,12 +1,54 @@
-#headline{
+#headline {
     text-align: center;
     text-decoration: underline;
+    margin-top: 100px;
 }
 
 .movietile {
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px 200px;
+    margin-top: 100px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 300px 300px 300px 300px;
     grid-gap: 10px;
-    background-color: black;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.movietile>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .movietile {
+        margin-top: 30px;
+        grid-template-columns: auto;
+        grid-template-rows: 300px;
+        grid-gap: 5px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .movietile {
+        margin-top: 50px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 200px 200px;
+        grid-gap: 7px;
+        padding: 4px;
+    }
 }
