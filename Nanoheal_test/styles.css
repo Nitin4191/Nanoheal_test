@@ -43,7 +43,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .movietile {
         margin-top: 50px;
         grid-template-columns: auto auto;
